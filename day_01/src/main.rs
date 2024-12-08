@@ -46,7 +46,7 @@ fn main() -> io::Result<()> {
 
     let res = solve_one(&mut l1, &mut l2);
     let res2 = solve_two(&mut l1, &mut l2);
-    println!("Res: {} - {}", res, res2);
+    println!("Day 01: {} - {}", res, res2);
 
     Ok(())
 }
