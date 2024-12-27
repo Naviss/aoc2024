@@ -1,0 +1,9 @@
+{
+	tokens=[
+		integer-constant='regexp:\d{1,3}'
+	]
+}
+
+operation-identifier ::= sum
+
+instruction-identifier ::= operation-identifier '(' integer-constant ',' integer-constant ')'
